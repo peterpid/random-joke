@@ -16,3 +16,7 @@ function getJoke() {
 	});
 	xhr.send();
 }
+
+addEventListener('load', function(){
+	getJoke();
+});
